@@ -1,3 +1,8 @@
+
+/**
+ * @author Jason Kelly
+ */
+
 package libraryproject;
 
 public class Book {
