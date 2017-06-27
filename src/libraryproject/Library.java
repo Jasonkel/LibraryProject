@@ -1,14 +1,13 @@
 package libraryproject;
 
-public class Library extends Address{
+public class Library extends Address {
 
-    
     private Book collection[];
     private static String openningHours = "Libraries are open daily from 9am to 5pm.";
     private int collectionCount = 0;
 
     public Library(String address1, String address2) {
-        super(address1,address2);
+        super(address1, address2);
         collection = new Book[7];
     }
 
